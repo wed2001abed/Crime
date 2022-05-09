@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html  lang="en">
+
+<head>
+<title>جرائم</title>
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/font.css">
+<script src="https://kit.fontawesome.com/637b642572.js" crossorigin="anonymous"></script>
+<script defer src="../js/Sindex.js"></script>
+</head>
+<body>
+
+
+  <div id="index"  >.</div>
+ <nav class="navbar" >
+       
+        <div class="navbar-links" >
+          <ul>
+		    <li>
+			<!-- Button to open the modal login form -->
+			<a onclick="document.getElementById('id01').style.display='block'">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+
+			<!-- The Modal -->
+			<div id="id01" class="modal2">
+			 
+
+			  <!-- Modal Content -->
+			  <form class="modal2-content animate" action="connect.php" method="post">
+			  
+				<div class="imgcontainer">
+				<span onclick="document.getElementById('id01').style.display='none'"
+			class="close" title="Close Modal">&times;</span>
+				  <img src="../image/person-icon.png" alt="Avatar" class="avatar">
+
+				</div>
+
+				<div class="container3">
+				  <label ><b>Username</b></label>
+				  <input type="text" placeholder="Enter Username" name="username" required>
+
+				  <label ><b>Password</b></label>
+				  <input type="password" placeholder="Enter Password" name="password" required>
+
+				  <button type="submit" style="width: 100%;font-size: 21px;background-color: #340505;padding: 7px;">Login</button>
+				  <label>
+					<input type="checkbox" checked="checked" name="remember"> Remember me
+				  </label>
+				</div>
+
+				<div class="container3" style="background-color:#010e04">
+				  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				  <span class="psw">Forgot <a href="#" style="display: contents;color: #0d2e15;padding: 0px;">password?</a></span>
+				</div>
+			  </form>
+			</div>
+			</li>
+            <li><a href="#index">Home<i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#about">About<i class="fa-solid fa-chalkboard-user"></i></a></li>
+            <li class="dropdown">
+            <div class="dropbtn"><a href="#"> Topic <i class="fa-solid fa-book-open"></i> </a></div>
+            <div class="dropdown-content">
+<a href="Crimehappenedinsaudiarabia.html">Crime happened in saudi arabia</a>
+<a href="Crimesaroundtheworld.html">Crimes around the world</a>
+<a href="Naturaldisasters.html">Natural disasters</a>
+</div></li>
+<li style="background:none;">
+        <!-- Start Search box -->
+<div class="searchBox">
+
+            <input class="searchInput" type="text" name="searchInput" placeholder="Search">
+            <button class="searchButton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+<!-- End Search Box  -->
+</li>
+
+          </ul> 
+        </div>
+		<div class="brand-title">Crime</div>
+      </nav>
+
+
+<div class="C">Crimes happen and we don't know</div>
+<div id="about"></div>
+<div class="about">
+<p class="p1">About</p>
+<p class="p2">I present to you an overview of the ugliness and inhumanity of human beings...Many people commit irreversible actions that lead to horrific consequences and innocent sacrifices...Maybe I can't do anything about them, but I want people to know that there are crimes that happen at any time, at any moment, so it is necessary to be careful and know its causes and find solutions.
+I'm an information technology student. I created this site for a project, so it's probably not perfect. I'm still a beginner.</p>
+</div>
+
+
+
+
+
+
+<div class="footer"> 
+<div class="container">
+
+<div class="box">
+<p>Crime</p>
+<ul>  <li><i class="fa-brands fa-youtube"></i><br>@Crime</li>    <li><i class="fa-brands fa-instagram"></i><br>@crime2022</li>      <li><i class="fa-brands fa-twitter"></i><br>@2022_crime</li>  </ul>
+<br><div class="Signature">2022 made by wed for broject</div>
+</div>
+<div class="box"><ol>  <li><a href="Crimehappenedinsaudiarabia.html">Crime happened in saudi arabia </a></li>
+    <li><a href="Crimesaroundtheworld.html">Crimes around the world</a></li>    
+	<li><a href="Naturaldisasters.html">Natural disasters</a></li>  </ol></div>
+<div class="box">
+<div class="container2">
+  <h2>Leave Us a Comment</h2>
+  <form>
+   <textarea placeholder='Add Your Comment'></textarea>
+    <div class="btn">
+      <input type="submit" value='Comment'>
+      <button id='clear' >Cancel</button>
+    </div>
+  </form>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
